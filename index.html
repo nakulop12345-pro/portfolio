@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#080b12">
+<meta name="description" content="Portfolio of Nakul Sharma, a student developer from India building websites, interactive 3D experiences, and digital projects.">
+<title>Nakul Sharma — Developer Portfolio</title>
+<style>
+:root{--bg:#080b12;--panel:#101621;--panel2:#0d131d;--text:#f2f5fa;--muted:#9ba8bb;--line:rgba(255,255,255,.11);--mint:#8df5d0;--blue:#8fb8ff;--max:1120px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 75% 0%,rgba(71,103,180,.17),transparent 35%),radial-gradient(ellipse at 8% 30%,rgba(60,201,161,.08),transparent 28%),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}a:focus-visible,button:focus-visible{outline:2px solid var(--mint);outline-offset:4px}.wrap{width:min(var(--max),calc(100% - 40px));margin:auto}.nav{display:flex;align-items:center;justify-content:space-between;padding:22px 0;border-bottom:1px solid var(--line)}.brand{display:flex;align-items:center;gap:11px;font-weight:750;letter-spacing:-.03em}.mark{display:grid;place-items:center;width:36px;height:36px;border:1px solid rgba(141,245,208,.45);border-radius:12px;color:var(--mint);font-size:13px;background:rgba(141,245,208,.06)}.navlinks{display:flex;gap:24px;color:var(--muted);font-size:13px}.navlinks a:hover,.textlink:hover{color:var(--mint)}.hero{padding:94px 0 76px;display:grid;grid-template-columns:1.2fr .8fr;gap:60px;align-items:center}.eyebrow{display:inline-flex;gap:9px;align-items:center;padding:7px 11px;border:1px solid var(--line);border-radius:99px;color:#c8d3e4;font-size:12px;background:rgba(255,255,255,.025)}.dot{width:7px;height:7px;border-radius:50%;background:var(--mint);box-shadow:0 0 15px var(--mint)}h1{font-size:clamp(42px,6.5vw,76px);line-height:1.03;letter-spacing:-.065em;margin:22px 0 20px;font-weight:780}h1 span{color:var(--mint)}.lead{font-size:18px;max-width:590px;color:#b7c2d3;line-height:1.8}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:12px 17px;border:1px solid var(--line);border-radius:12px;font-size:13px;font-weight:700;transition:transform .2s,border-color .2s}.btn:hover{transform:translateY(-2px);border-color:rgba(141,245,208,.55)}.btn.primary{background:var(--mint);color:#07120f;border-color:var(--mint)}.hero-card{min-height:350px;position:relative;border:1px solid var(--line);border-radius:26px;overflow:hidden;background:linear-gradient(145deg,rgba(143,184,255,.13),rgba(141,245,208,.045) 50%,rgba(255,255,255,.02));display:flex;align-items:center;justify-content:center}.orb{width:210px;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 32% 27%,#d7fff4 0,#80e8d3 8%,#2c7e9b 30%,#172c53 62%,#070b13 73%);box-shadow:0 0 45px rgba(96,199,225,.22),inset -20px -22px 45px rgba(0,0,0,.55);position:relative}.orb:before,.orb:after{content:"";position:absolute;border:1px solid rgba(141,245,208,.38);border-radius:50%;inset:-28px -70px;transform:rotate(-25deg)}.orb:after{inset:-55px -36px;transform:rotate(38deg);border-color:rgba(143,184,255,.28)}.float-tag{position:absolute;padding:9px 12px;background:rgba(8,11,18,.72);border:1px solid var(--line);backdrop-filter:blur(10px);border-radius:11px;font-size:11px;color:#dbe4ef}.tag-a{top:25px;left:22px}.tag-b{right:20px;top:90px}.tag-c{bottom:26px;left:30px}.hero-card small{position:absolute;bottom:20px;right:22px;color:var(--muted);font-size:10px}.section{padding:52px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:24px}.kicker{font-size:11px;text-transform:uppercase;letter-spacing:.17em;color:var(--mint);font-weight:800}.section h2{font-size:clamp(28px,4vw,42px);letter-spacing:-.045em;line-height:1.15;margin:9px 0 0}.section-intro{max-width:490px;color:var(--muted);font-size:14px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.project{border:1px solid var(--line);background:linear-gradient(160deg,rgba(255,255,255,.035),rgba(255,255,255,.012));border-radius:19px;padding:24px;min-height:220px;display:flex;flex-direction:column;transition:transform .2s,border-color .2s}.project:hover{transform:translateY(-3px);border-color:rgba(141,245,208,.32)}.project-top{display:flex;justify-content:space-between;align-items:center;gap:10px}.iconbox{width:43px;height:43px;border:1px solid var(--line);background:rgba(255,255,255,.035);border-radius:13px;display:grid;place-items:center;font-size:20px}.pill{border:1px solid var(--line);border-radius:99px;padding:5px 9px;font-size:10px;color:#b6c2d4}.project h3{font-size:21px;letter-spacing:-.03em;margin:19px 0 7px}.project p{font-size:13px;color:var(--muted);margin:0 0 20px}.project-links{display:flex;gap:15px;flex-wrap:wrap;margin-top:auto;font-size:12px;font-weight:750}.textlink{color:var(--mint)}.about-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:24px}.about-card,.contact-card{border:1px solid var(--line);background:rgba(255,255,255,.025);border-radius:20px;padding:25px}.about-card h3{margin:0 0 10px;font-size:19px}.about-card p{margin:0;color:var(--muted);font-size:14px}.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}.chip{border:1px solid var(--line);padding:7px 10px;border-radius:9px;color:#c7d2e1;font-size:11px}.note{font-size:12px;color:#8998ad;margin-top:15px}.contact{padding:64px 0 84px}.contact-card{display:flex;justify-content:space-between;align-items:center;gap:30px;background:linear-gradient(120deg,rgba(141,245,208,.09),rgba(143,184,255,.05));padding:34px}.contact-card h2{font-size:clamp(27px,4vw,40px);line-height:1.15;letter-spacing:-.045em;margin:8px 0}.contact-card p{color:var(--muted);max-width:560px;font-size:14px}.footer{border-top:1px solid var(--line);padding:22px 0 30px;color:#7e8ba0;font-size:11px;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.footer a{color:#a8b6c9}.reveal{animation:rise .7s both}@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}@media(max-width:760px){.hero{grid-template-columns:1fr;padding:64px 0 48px;gap:35px}.hero-card{min-height:280px}.orb{width:150px}.navlinks{gap:13px}.navlinks a:nth-child(2){display:none}.section-head{display:block}.section-intro{margin-top:12px}.about-grid{grid-template-columns:1fr}.contact-card{display:block}.contact-card .btn{margin-top:8px}}@media(max-width:520px){.wrap{width:min(100% - 28px,var(--max))}.navlinks{font-size:11px;gap:10px}.grid{grid-template-columns:1fr}.hero{padding-top:48px}h1{font-size:48px}.lead{font-size:16px}.project{min-height:200px}.footer{display:block}.footer span{display:block;margin:5px 0}}
+</style>
+</head>
+<body>
+<header class="wrap">
+  <nav class="nav" aria-label="Main navigation">
+    <a class="brand" href="#top"><span class="mark">NS</span><span>Nakul Sharma</span></a>
+    <div class="navlinks"><a href="#projects">Projects</a><a href="#about">About</a><a href="#contact">Contact ↗</a></div>
+  </nav>
+</header>
+<main id="top">
+  <section class="hero wrap">
+    <div class="reveal">
+      <div class="eyebrow"><span class="dot"></span> Student developer · India</div>
+      <h1>Building things<br>for the <span>curious.</span></h1>
+      <p class="lead">I'm Nakul, a Class 12 student exploring web development, interactive 3D experiences, and useful digital products. This is a selection of work I've built and experiments I'm developing.</p>
+      <div class="actions">
+        <a class="btn primary" href="#projects">Explore my work <span>↘</span></a>
+        <a class="btn" href="https://github.com/nakulop12345-pro" target="_blank" rel="noopener noreferrer">GitHub profile ↗</a>
+      </div>
+    </div>
+    <div class="hero-card reveal" aria-label="Abstract 3D-inspired orbital illustration">
+      <div class="orb"></div>
+      <div class="float-tag tag-a">✦ Interactive experiences</div>
+      <div class="float-tag tag-b">Web · 3D · Experiments</div>
+      <div class="float-tag tag-c">Learning by building</div>
+      <small>PORTFOLIO / 2026</small>
+    </div>
+  </section>
+
+  <section class="section wrap" id="projects">
+    <div class="section-head">
+      <div><div class="kicker">Selected work</div><h2>Projects, not just plans.</h2></div>
+      <p class="section-intro">A few public projects from my GitHub. Open a live demo where available, or explore the repository for code and current status.</p>
+    </div>
+    <div class="grid">
+      <article class="project">
+        <div class="project-top"><div class="iconbox">🪐</div><span class="pill">Featured · Live demo</span></div>
+        <h3>Interactive 3D Solar System</h3>
+        <p>A browser-based space experience focused on exploring the Solar System in 3D. The live demo and source repository are available to explore.</p>
+        <div class="project-links"><a class="textlink" href="https://nakulop12345-pro.github.io/system/" target="_blank" rel="noopener noreferrer">Open live demo ↗</a><a class="textlink" href="https://github.com/nakulop12345-pro/system" target="_blank" rel="noopener noreferrer">View source ↗</a></div>
+      </article>
+      <article class="project">
+        <div class="project-top"><div class="iconbox">✍️</div><span class="pill">Collaborative web project</span></div>
+        <h3>Shared Drawing</h3>
+        <p>A public project described as a place to draw together with friends. Explore the repository to see the implementation and current state.</p>
+        <div class="project-links"><a class="textlink" href="https://github.com/nakulop12345-pro/shared-drawing-" target="_blank" rel="noopener noreferrer">Explore repository ↗</a></div>
+      </article>
+      <article class="project">
+        <div class="project-top"><div class="iconbox">🐾</div><span class="pill">Community-focused project</span></div>
+        <h3>Bitties</h3>
+        <p>A project in my public repositories. Visit the repository for its current code, details, and development status.</p>
+        <div class="project-links"><a class="textlink" href="https://github.com/nakulop12345-pro/bitties" target="_blank" rel="noopener noreferrer">Explore repository ↗</a></div>
+      </article>
+      <article class="project">
+        <div class="project-top"><div class="iconbox">🧪</div><span class="pill">More experiments</span></div>
+        <h3>Other web projects</h3>
+        <p>I keep experimenting with different ideas and formats. My GitHub profile contains additional public repositories, including projects at different stages.</p>
+        <div class="project-links"><a class="textlink" href="https://github.com/nakulop12345-pro?tab=repositories" target="_blank" rel="noopener noreferrer">Browse all repositories ↗</a></div>
+      </article>
+    </div>
+    <p class="note">Project descriptions are intentionally brief. Repository contents, dependencies, and feature completeness may change as projects evolve.</p>
+  </section>
+
+  <section class="section wrap" id="about">
+    <div class="section-head"><div><div class="kicker">A little about me</div><h2>Curious by default.</h2></div></div>
+    <div class="about-grid">
+      <div class="about-card"><h3>Where I'm coming from</h3><p>I'm a student in India studying Class 12 PCM. I enjoy learning by experimenting, building projects, and improving them through feedback.</p></div>
+      <div class="about-card"><h3>What I'm exploring</h3><p>My current interests include websites, interactive 3D interfaces, and digital product ideas. I want to keep growing through real projects, collaboration, and constructive feedback.</p><div class="chips"><span class="chip">Web development</span><span class="chip">Interactive 3D</span><span class="chip">Digital products</span><span class="chip">Independent projects</span></div></div>
+    </div>
+    <p class="note">This portfolio describes interests and projects, not formal employment history or professional credentials.</p>
+  </section>
+
+  <section class="contact wrap" id="contact">
+    <div class="contact-card">
+      <div><div class="kicker">Contact / collaboration</div><h2>Have feedback or an idea?</h2><p>I'm interested in constructive feedback, learning opportunities, and suitable project collaborations. If something here catches your eye, I'd be glad to hear from you.</p></div>
+      <div class="actions"><a class="btn primary" href="https://github.com/nakulop12345-pro" target="_blank" rel="noopener noreferrer">Connect on GitHub ↗</a><a class="btn" href="https://github.com/nakulop12345-pro?tab=repositories" target="_blank" rel="noopener noreferrer">All projects ↗</a></div>
+    </div>
+  </section>
+</main>
+<footer class="wrap footer"><span>© <span id="year">2026</span> Nakul Sharma · Built as a lightweight, static website.</span><span><a href="#top">Back to top ↑</a> · <a href="https://github.com/nakulop12345-pro" target="_blank" rel="noopener noreferrer">GitHub</a></span></footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
